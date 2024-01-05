@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="fotos/logo_redondo.png" type="image/x-icon">
+
+</head>
+<body>
+    <div class="menu">
+        <nav id="menu-h">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/sobre">Sobre</a></li>
+                <li><a href="/cardapio">Cardapio</a></li>
+                <li><a href="#">Entrar</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main">
+        <div class="opcao" id="opcaoid0">
+            <div class="titulo">
+                <p id="titulo0" ><strong>Pulledpork c/ Salada Coleslaw</strong></p>
+            </div>
+            <div class="conteudo0">
+                <img id="foto" src="/fotos/Pulledpork.jpeg" alt="">
+                <div class="parag">
+                    <p id="parag" >Lanche de pernil de Porco assado lentamente com salada Coleslaw</p>
+                </div>
+            </div>
+            <div class="confirma">
+                <p id="escolha0" onclick="document.getElementById('opcaoid0').style.display='none';">Escolher</p>
+            </div>
+        </div>
+        
+        <div class="opcao" id="opcaoid1">
+            <div class="titulo">
+                <p id="parag" ><strong>Tapioca de Carne Seca com Queijo</strong></p>
+            </div>
+            <div class="conteudo0">
+                <img id="foto" src="/fotos/tapioca_carneseca_queijo.jpeg" alt="">
+                <div class="parag">
+                    <p id="parag" >Tapioca com massa tradicional hidratada com Carne seca desfiada e Queijo de sua preferencia </p>
+                </div>
+            </div>
+            <div class="confirma" onclick="esconder()">
+                <p id="escolha0" >Escolher</p>
+            </div>
+        </div>
+
+    </div>
+    <footer class="footer">
+        <div class="container">
+         <div class="row">
+           <div class="footer-col">
+             <h4>Empresa</h4>
+             <ul>
+               <li><a href="#">Sobre nós</a></li>
+               <li><a href="#">Nossos Serviços</a></li>
+             </ul>
+           </div>
+      
+           <div class="footer-col">
+             <h4>Nossos Produtos</h4>
+             <ul>
+               <li><a href="#">Tapiocas</a></li>
+               <li><a href="#">Lanches</a></li>
+             </ul>
+           </div>
+           <div class="footer-col">
+             <h4>Siga a Gente</h4>
+             <div class="social-links">
+               <a href="https://www.facebook.com/quentefriogastronomia"><img src="/fotos/fcb.png" class="fcb_img"></a>
+               <a href="https://www.instagram.com/quentefriogastronomia/"><img src="/fotos/insta.png" class="insta_img"></a>
+               <a href="https://www.ifood.com.br/delivery/cotia-sp/quente-e-frio-parque-mirante-da-mata/024b58d5-d1a5-4bda-8123-4d9b92e56508?utm_medium=share"><img src="/fotos/logo_ifood.png" class="ifood_img"></a>
+               <a href="https://api.whatsapp.com/send/?phone=5511940662439&text&type=phone_number&app_absent=0"><img src="/fotos/wpp.png" class="wpp_img"></a>
+              </div>
+           </div>
+         </div>
+        </div>
+      </footer>
+    <script src="script.js" ></script>
+</body>
+</html>
